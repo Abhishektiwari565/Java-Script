@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // wap to find min number from 4 number.
+        const a=parseInt(prompt("enter a"));
+        const b=parseInt(prompt("enter b"));
+        const c=parseInt(prompt("enter c"));
+        const d=parseInt(prompt("enter d"));
+        // a,b,c,d
+
+        if(a<b){
+            // a,c,d
+            if(a<c){
+                // a,d
+                if(a<d){
+                    // a
+                    document.writeln("a is min");
+                }else{
+                    document.writeln("d is min");
+                }
+            }else{
+                // c,d
+                if(c<d){
+                    // c
+                    document.writeln("c is min");
+                }else{
+                    // d
+                    document.writeln("d is min");
+                }
+
+            }
+
+        }else{
+            // b,c,d
+            if(b<c){
+                // b,d
+                if(b<d){
+                    // b
+                    document.writeln("b is min");
+                }else{
+                    // d
+                    document.writeln("d is min");
+                }
+            }else{
+                // c,d
+                if(c<d){
+                    // c
+                    document.writeln("c is min");
+                }else{
+                    // d
+                    document.writeln("d is min");
+                }
+
+            }
+
+        }
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // wap to find max among 5 numbers.
+
+        const a=parseInt(prompt("enter a"));
+        const b=parseInt(prompt("enter b"));
+        const c=parseInt(prompt("enter c"));
+        const d=parseInt(prompt("enter d"));
+        const e=parseInt(prompt("enter e"));
+
+        // a,b,c,d,e
+
+       if(a>b){
+        // a,c,d,e
+        if(a>c){
+            // a,d,e
+            if(a>d){
+                // a,e
+                if(a>e){
+                    // a
+                    document.writeln("a is max");
+
+                }else{
+                    // e
+                    document.writeln("e is max");
+
+                }
+
+            }else{
+                // d,e
+                if(d>e){
+                    // d
+                    document.writeln("d is max");
+
+                }else{
+                    // e
+                    document.writeln("e is max");
+
+                }
+
+            }
+
+        }else{
+            // c,d,e
+            if(c>d){
+                // c,e
+                if(c>e){
+                    // c 
+                    document.writeln("c is max");
+
+                }else{
+                    // e
+                    document.writeln("e is max");
+
+                }
+
+            }else{
+                // d,e
+                if(d>e){
+                    // d
+                    document.writeln("d is max");
+
+                }else{
+                    // e
+                    document.writeln("e is max");
+
+                }
+
+            }
+
+        }
+
+       }else{
+        // b,c,d,e
+        if(b>c){
+            // b,d,e
+            if(b>d){
+                // b,e
+                if(b>e){
+                    // b
+                    document.writeln("b is max")
+
+                }else{
+                    // e 
+                    document.writeln("e is max")
+
+                }
+
+            }else{
+                // d,e
+                if(d>e){
+                    // d
+                    document.writeln("d is max");
+
+                }else{
+                    // e
+                    document.writeln("e is max");
+
+                }
+
+            }
+
+        }else{
+            // c,d,e
+            if(c>d){
+                //c,e
+                if(c>e){
+                    // e
+                    document.writeln("c is max");
+
+                }else{
+                    document.writeln("e is max");
+
+                }
+
+            }else{
+                // d,e
+                if(d>e){
+                    document.writeln("d is max");
+
+                }else{
+                    document.writeln("e is max");
+
+                }
+               
+
+            }
+    
+
+        }
+
+       }
+    </script>
+    
+</body>
+</html>
