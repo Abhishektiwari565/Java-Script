@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // wap to print diamond pattern using for loop.
+
+let x=10;
+let y=10;
+let a=2;
+let b=18;
+        for(i=1;i<=10;i++){
+            for(j=1;j<=20;j++){
+                if(j==x||j==y){
+                    document.writeln("*");
+
+                }else{
+                    document.writeln("&nbsp&nbsp");
+
+                }
+
+            }
+            
+            x--;
+            y++;
+            document.writeln("<br>");
+    }
+
+    for(i=1;i<=9;i++){
+            for(j=1;j<=20;j++){
+                if(j==a||j==b){
+                    document.writeln("*");
+
+                }else{
+                    document.writeln("&nbsp&nbsp");
+
+                }
+
+            }
+            
+            a++;
+            b--;
+            document.writeln("<br>");
+    }
+    </script>
+    
+</body>
+</html>

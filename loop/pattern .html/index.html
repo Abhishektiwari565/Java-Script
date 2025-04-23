@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    //Q.1        //           1
+                 //         1 2
+                 //       1 2 3
+                 //     1 2 3 4
+                 //   1 2 3 4 5
+
+                //  for(i=1;i<=5;i++){
+                //     for(k=i;k<5;k++){
+                //         document.writeln("-");
+                //     }
+                //     for(j=1;j<=i;j++){
+                //         document.writeln(j);
+                //     }
+                //     document.writeln("<br>");
+                //  }
+
+                // Q.2             1
+                //               2 1
+                //             3 2 1
+                //           4 3 2 1
+                //         5 4 3 2 1
+
+                // for(i=1;i<=5;i++){
+                //     for(k=1;k<=5-i;k++){
+                //         document.writeln("-");
+
+                //     }
+                //     for(j=i;j>=1;j--){
+                //         document.writeln(j);
+
+                //     }
+                //     document.writeln("<br>");
+                // }
+
+                // Q.3             5
+                //               4 5
+                //             3 4 5
+                //           2 3 4 5
+                //         1 2 3 4 5
+
+                // for(let i=5;i>=1;i--){
+                //     for(let k=1;k<i;k++){
+                //         document.writeln("-");
+
+                //     }
+                //     for(let j=i;j<=5;j++){
+                //         document.writeln(j);
+
+                //     }
+                //     document.writeln("<br>");
+                // }
+
+
+                // Q.4           5
+                //             5 4
+                //           5 4 3
+                //         5 4 3 2
+                //       5 4 3 2 1
+
+                // for(let i=5;i>=1;i--){
+                //     for(let k=1;k<i;k++){
+                //         document.writeln("-");
+                //     }
+                //     for(let j=5;j>=i;j--){
+                //         document.writeln(j);
+
+                //     }
+                //     document.writeln("<br>");
+                // }
+
+                // Q.5          1
+                //            2 2
+                //          3 3 3
+                //        4 4 4 4
+                //      5 5 5 5 5
+
+                // for(let i=1;i<=5;i++){
+                //     for(let k=i;k<5;k++){
+                //         document.writeln("-")
+                //     }
+                //     for(let j=1;j<=i;j++){
+                //         document.writeln(i);
+
+                //     }
+                //     document.writeln("<br>");
+                // }
+
+                // Q.6            5
+                //              4 4
+                //            3 3 3
+                //          2 2 2 2
+                //        1 1 1 1 1
+
+                // for(let i=5;i>=1;i--){
+                //     for(let k=1;k<i;k++){
+                //         document.writeln("-")
+
+                //     }
+                //     for(let j=i;j<=5;j++){
+                //         document.writeln(i);
+
+                //     }
+                //     document.writeln("<br>");
+                // }
+
+                // Q.7            1 2 3 4 5
+                //                  1 2 3 4
+                //                    1 2 3
+                //                      1 2
+                //                        1
+
+
+                // for(let i=5;i>=1;i--){
+                //     for(let k=i;k<5;k++){
+                //         document.writeln("-");
+                //     }
+                //     for(let j=1;j<=i;j++){
+                //         document.writeln(j);
+
+                //     }
+                //     document.writeln("<br>");
+                // }
+
+
+                // Q.8          1 2 3 4 5
+                //                2 3 4 5
+                //                  3 4 5
+                //                    4 5
+                //                      5
+
+                // for(let i=1;i<=5;i++){
+                //     for(let k=1;k<i;k++){
+                //         document.writeln("-");
+                //     }
+                //     for(let j=i;j<=5;j++){
+                //         document.writeln(j);
+
+                //     }
+                //    document.writeln("<br>");
+                // }
+
+                // Q.9              5 4 3 2 1
+                //                    5 4 3 2
+                //                      5 4 3
+                //                        5 4
+                //                          5
+
+                // for(let i=5;i>=1;i--){
+                //     for(let k=1;k<i;k++){
+                //         document.writeln("-");
+                //     }
+                //     for(let j=5;j>=i;j--){
+                //         document.writeln(j);
+
+                //     }
+                //     document.writeln("<br>");
+                // }
+
+                // Q.10             5 4 3 2 1
+                //                    4 3 2 1
+                //                      3 2 1
+                //                        2 1
+                //                          1
+
+                // for(let i=5;i>=1;i--){
+                //     for(let j=i;j<5;j++){
+                //         document.writeln("-")
+                //     }
+                //     for(let j=i;j>=1;j--){
+                //         document.writeln(j);
+
+                //     }
+                //     document.writeln("<br>");
+                // }
+
+                // Q.11           * * * * *
+                //                  * * * *
+                //                    * * *
+                //                      * *
+                //                        *
+
+
+                // for(let i=1;i<=5;i++){
+                //     for(let k=1;k<i;k++){
+                //         document.writeln("-");
+                //     }
+                //     for(let j=i;j<=5;j++){
+                //         document.writeln("*");
+
+                //     }
+                //     document.writeln("<br>");
+                // }
+
+                // Q.12            *
+                //               * *
+                //             * * *
+                //           * * * *
+                //         * * * * *
+
+                // for(let i=1;i<=5;i++){
+                //     for(let k=i;k<5;k++){
+                //         document.writeln("-")
+                //     }
+                //     for(let j=1;j<=i;j++){
+                //         document.writeln("*");
+
+                //     }
+                //     document.writeln("<br>");
+                // }
+
+            //    Q.13              1
+            //                    1 0
+            //                  1 0 1
+            //                1 0 1 0
+            //              1 0 1 0 1
+
+            // for(let i=1;i<=5;i++){
+            //     for(let k=i;k<5;k++){
+            //         document.writeln("-");
+            //     }
+            //     for(let j=1;j<=i;j++){
+                   
+            //         if(j%2==1){
+            //             document.writeln("1");
+
+            //         }else{
+            //             document.writeln("0");
+            //         }
+
+            //     }
+            //     document.writeln("<br>");
+            // }
+
+            // Q.14           1
+            //              0 0
+            //            1 1 1
+            //          0 0 0 0
+            //        1 1 1 1 1
+
+            // for(let i=1;i<=5;i++){
+                
+            //     for(let j=1;j<=i;j++){
+                    
+                    
+            //         if(j%2==1){
+            //             document.writeln("1");
+            //                                                  ??????????
+            //         }else{
+            //             document.writeln("0");
+
+            //         }
+
+            //     }
+            //     document.writeln("<br>");
+                
+            // }
+
+            // Q.15                  1 0 1 0 1
+            //                         0 1 0 1
+            //                           1 0 1
+            //                             0 1
+            //                               1
+
+            // for(let i=1;i<=5;i++){
+            //     for(let k=1;k<i;k++){
+            //         document.writeln("-");
+            //     }
+            //     for(let j=i;j<=5;j++){
+            //         if(j%2==1){
+
+            //             document.writeln("1")
+            //         }else{
+            //             document.writeln("0")
+
+            //         }
+                   
+            //     }
+            //     document.writeln("<br>");
+
+            // }
+
+            // Q.16         1 0 1 0 1
+            //                1 0 1 0
+            //                  1 0 1
+            //                    1 0
+            //                      1      
+            
+        //   for(let i=1;i<=5;i++){
+        //     for(let k=1;k<i;k++){
+        //         document.writeln("-");
+        //     }
+        //     for(let j=5;j>=i;j--){
+        //         if(j%2==1){
+        //             document.writeln("1")
+
+        //         }else{
+        //             document.writeln("0")
+
+        //         }
+
+        //     }
+        //     document.writeln("<br>");
+        //   }
+
+        // Q.17           - | - | -
+        //                  - | - |
+        //                    - | -
+        //                      - |
+        //                        -
+
+        // for(let i=1;i<=5;i++){
+        //     for(let k=1;k<i;k++){
+        //         document.writeln("&nbsp");
+        //     }
+        //     for(let j=5;j>=i;j--){
+        //         if(j%2==1){
+        //             document.writeln("-")
+        //         }else{
+        //             document.writeln("|")
+
+        //         }
+
+        //     }
+        //     document.writeln("<br>");
+        // }
+
+        // Q.18              |
+        //                 | -
+        //               | - |
+        //             | - | -
+        //           | - | - |
+
+        // for(let i=1;i<=5;i++){
+        //     for(let k=i;k<=5;k++){
+        //         document.writeln("&nbsp");
+        //     }
+        //     for(let j=1;j<=i;j++){
+        //         if(j%2==1){
+        //             document.writeln("|")
+
+        //         }else{
+        //             document.writeln("-")
+
+        //         }
+
+        //     }
+        //     document.writeln("<br>");
+        // }
+
+
+
+            
+    </script>
+    
+</body>
+</html>
