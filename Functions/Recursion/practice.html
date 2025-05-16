@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // 1
+        // wap to create a function to generate table of user given number.
+        // function table(){
+        //     let n=parseInt(prompt("enter a number"))
+        //     for(i=1;i<=n;i++){
+        //         document.writeln(n+"*"+i+":"+n*i);
+        //         document.writeln("<br>");
+
+        //     }
+        // }
+        // table();
+
+        // 2
+        // wap to print a 1 to n table using a function.
+        // let n=parseInt(prompt("enter a number"))
+        //         function table(n){
+        //             for(i=1;i<=n;i++){
+        //                 for(j=1;j<=10;j++){
+        //                     document.writeln(i+"*"+j+"="+i*j);
+        //                     document.writeln("<br>");
+
+        //                 }
+        //                 document.writeln("<br>");
+        //             }
+        //         }
+        //         table(n);
+
+        // 3
+        // wap to create calculator using udf and switch case.
+        // // let num1 = parseInt(prompt("enter num1"));
+        // // let num2 = parseInt(prompt("enter num2"));
+        // // let choice = prompt("enter choice:");
+        // // function calculator(num1, num2,) {
+        // //     let ans;
+        // //     function addition() {
+        // //         ans = num1 + num2;
+        // //         document.writeln(ans);
+        // //     }
+        // //     function subtraction() {
+        // //         ans = num1 - num2;
+        // //         document.writeln(ans);
+        // //     }
+        // //     switch (choice) {
+        // //         case "+":
+        // //             addition(num1, num2);
+        // //             break;
+        // //         case "-":
+        // //             subtraction(num, num2)
+        // //             break;
+
+
+
+
+
+        //     }
+
+        // }
+        // calculator(num1, num2);
+
+        // 4
+        // convert inch into feet:inch format
+        // function convert(inch){
+        //     let f,i;
+        //     f=Math.floor(inch/12);
+        //     i=inch%12;
+        //     document.writeln(f+":"+i);
+        // }
+        // convert(65);
+
+        // 5 check number is palindrom or not.
+        // let num=parseInt(prompt("enter a number"));
+        // function palindrome(){
+        //     let temp=num;
+        //     let reverse=0;
+        //     while(temp>0){
+        //          digit=temp%10;
+        //          reverse=reverse*10+digit;
+
+        //          temp=Math.floor(temp/10);
+
+        //     }
+        //     if(num==reverse){
+        //         document.writeln("palindrome");
+        //     }else{
+        //         document.writeln("not palindrome");
+        //     }
+
+        // }
+        // palindrome(num);
+
+        // 6 wap will print the factorial of the passed number in UDF.
+    //     function factorial(n){
+    //         let a=1
+    //         for(i=1;i<=n;i++){
+    //             a=a*i;
+               
+
+    //         }
+    //         return a;
+    //     }
+    //  document.writeln(factorial(5));
+
+    // 7  wap to check given number is Armstrong or not
+
+    function armstrong(num){
+        let temp=num;
+        let arm=0;
+        while(temp>0){
+            let ld=temp%10;
+            digit=1;
+            for(i=1;i<=3;i++){
+                digit*=ld;
+            }
+            arm+=digit;
+            temp=Math.floor(temp/10);
+
+        }
+        if(arm==num){
+            document.writeln("armstrong");
+        }else{
+            document.writeln("not armstrong");
+        }
+
+    }
+    armstrong(153);
+
+
+    </script>
+
+</body>
+
+</html>

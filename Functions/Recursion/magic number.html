@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // wap to create magic number.
+       let n=parseInt(prompt("enter a number"));
+        function magic(n){
+            let sum=0;
+            let mul=1;
+            while(n>0){
+            let store=n%10;
+            sum+=store;
+            mul*=store;
+            n=Math.floor(n/=10);
+            }
+        
+        if(sum==mul){
+document.writeln("magic number");
+        }else{
+            document.writeln("not magic number");
+        }
+           
+
+        }
+       magic(n);
+    </script>
+    
+</body>
+</html>
