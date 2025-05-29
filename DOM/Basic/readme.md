@@ -14,6 +14,8 @@ Welcome to the **Color Generator**! 🌈 This simple and stylish tool helps you 
 
 ## 🎥 Demo
 
+https://github.com/user-attachments/assets/3a910c7d-9c89-4e01-83bc-b046e065fd26
+
 
 
 ## 🚀 How to Use
