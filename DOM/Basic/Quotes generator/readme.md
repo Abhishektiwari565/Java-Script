@@ -52,6 +52,11 @@ Welcome to the **Random Quotes Generator** – a simple and elegant web app that
 
 > “Your heart is the size of an ocean. Go find yourself in its hidden depths.”
 > — *Rumi*
+> 
+
+https://github.com/user-attachments/assets/f2c5d204-a775-4cc3-907e-43877805ccdd
+
+
 
 ---
 
