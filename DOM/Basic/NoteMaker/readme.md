@@ -10,6 +10,10 @@ Perfect for managing your tasks, ideas, or quick reminders — anytime, anywhere
 ## 🎬 Demo Video
 
 
+https://github.com/user-attachments/assets/9d977725-553f-4414-b88a-1a68cc1ac4e3
+
+
+
 
 ## 🎯 Features
 
