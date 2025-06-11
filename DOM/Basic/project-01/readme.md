@@ -37,6 +37,9 @@ This is a simple, local Note App developed with 💻 **HTML, CSS, and JavaScript
 **Abhishek Tiwari**
 
 > Frontend Developer | JavaScript Enthusiast | Building cool things from scratch 🚀
-
 ---
 demo video:
+
+
+https://github.com/user-attachments/assets/58fbf94e-356c-467d-8883-c53dcc86c412
+
