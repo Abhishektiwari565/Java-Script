@@ -77,4 +77,9 @@ It lets users navigate images manually or play them automatically in a loop — 
 * 📷 Allow users to upload their own images
 
 ---
+demo video:
+
+https://github.com/user-attachments/assets/4002f04d-072a-4d6d-86a5-b16b5c511895
+
+
 
