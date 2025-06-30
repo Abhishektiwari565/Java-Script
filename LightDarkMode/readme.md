@@ -23,6 +23,12 @@ It uses `localStorage` to remember the user's choice even after refreshing or re
 
 ---
 
+demo video:
+
+https://github.com/user-attachments/assets/04f376c2-4878-4061-9f2c-663149a29544
+
+
+
 ### 🧠 How It Works
 
 1. **Default state**: Light mode is shown on first load.
@@ -58,20 +64,3 @@ It uses `localStorage` to remember the user's choice even after refreshing or re
 * Blog readers who prefer light or dark reading modes 📖
 
 ---
-
-### 📌 Suggestions for Improvement
-
-* Add a toggle switch instead of two buttons
-* Save more UI settings like font size or background image
-* Use CSS variables (`--bg-color`, `--text-color`) for easier theme management
-* Add animation when theme changes ✨
-
----
-
-### 📞 Contact
-
-If you want help improving this project or converting it into a reusable theme module, feel free to ask! 😄
-
----
-
-Let me know if you want this written as a `.md` file you can download or commit to GitHub.
