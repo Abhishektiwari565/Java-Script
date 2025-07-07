@@ -55,6 +55,10 @@ Keeps your cart saved, even after page reloads. 🔄
 ## 📸 Screenrecording 
 
 
+https://github.com/user-attachments/assets/ff4b1d54-2d8b-40f5-b74c-6e161ac398bf
+
+
+
 ```
 ---
 
