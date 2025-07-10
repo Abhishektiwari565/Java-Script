@@ -23,6 +23,10 @@ A modern, elegant **Weather App** that shows real-time weather information 🌍 
 You can also embed your recording:
  
 Screen Recording:
+
+https://github.com/user-attachments/assets/7daf1677-75ee-42e5-80bc-1dcffa28f452
+
+
 ```
 
 
