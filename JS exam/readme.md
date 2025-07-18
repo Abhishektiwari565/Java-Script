@@ -22,6 +22,10 @@ Easily manage products with title, price, image, and category!
 > Add a video 
 > 
 
+https://github.com/user-attachments/assets/6c576b53-4224-4d74-b7a9-eb7317ad63f0
+
+
+
 ---
 
 ### 🚀 Technologies Used
